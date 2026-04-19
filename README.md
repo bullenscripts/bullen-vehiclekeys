@@ -37,8 +37,9 @@
 - Place bullen_vehiclekeys in your server resources folder.
 - Import the included SQL file into your database.
 - Open config.lua and set the correct options for your server
+- Images for each items are in /img folder
 
-### Items for ox_inventory & qb-inventory
+### Items for ox_inventory
 
 <details>
 <summary>Expand</summary>
