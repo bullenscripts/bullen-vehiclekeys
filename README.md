@@ -2,6 +2,21 @@
 
 🔑 Best VehicleKeys for QB-Core Framework 🔑
 
+## Features
+- owned vehicle key system
+- vehicle lock / unlock
+- shared keys between players
+- locksmith key copy system
+- lockpicking
+- hotwiring
+- carjacking
+- vehicle alarm support
+- fake plate support
+- key item metadata support
+- configurable minigame support
+- configurable inventory / target compatibility
+
+
 
 ## Dependencies:
 [qb-core](https://pages.github.com/](https://github.com/qbcore-framework/qb-core))<br>
