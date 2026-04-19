@@ -1,2 +1,9 @@
 # bullen-vehiclekeys
-Advanced vehiclekeys system for QBCore
+
+🔑 Best VehicleKeys for QB-Core Framework 🔑
+
+
+# Dependencies:
+[qb-core]([https://pages.github.com/](https://github.com/qbcore-framework/qb-core))
+oxmysql
+ox_lib
