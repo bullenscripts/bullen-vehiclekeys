@@ -106,3 +106,33 @@ fakeplate                   = { name = 'fakeplate', label = 'Fake Plate', weight
 platekit                    = { name = 'platekit', label = 'Plate Kit', weight = 300, type = 'item', image = 'platekit.png', unique = false, useable = false, shouldClose = true, description = 'Tools and parts for fitting a plate' },
 screwdriver                 = { name = 'screwdriver', label = 'Screwdriver', weight = 150, type = 'item', image = 'screwdriver.png', unique = false, useable = false, shouldClose = true, description = 'Useful for vehicle work' },
 ```
+
+## Commands
+
+- `/vlock` — Toggle the nearest/current accessible vehicle lock state
+- `/lockpick` — Fallback lockpick command
+- `/givekeys [id]` — Grant shared vehicle key access
+- `/revokekeys [id]` — Revoke shared vehicle key access
+
+## Exports
+
+```lua
+exports('HasAccess', function(source, plate) end)
+exports('HasRealAccess', function(source, plate) end)
+exports('GrantTemporaryAccess', function(source, plate, reason) end)
+exports('RevokeTemporaryAccess', function(source, plate) end)
+exports('HasAlarmInstalled', function(plate) end)
+exports('EnsurePhysicalKey', function(source, plate) end)
+exports('ReplacePhysicalKey', function(source, plate) end)
+```
+
+## Notes
+
+- `HasAccess` checks any valid access path
+- `HasRealAccess` checks owned/shared/physical key access only
+- Includes support for lockpicking, hotwiring, carjacking, alarms, fake plates, locksmith key copying, and key sharing
+
+### Important Notes
+- Your vehicle ownership table must match the script config
+- If you use custom garage/vehicle systems, you may need small config changes
+- If target or inventory is enabled in config, those resources must be running
