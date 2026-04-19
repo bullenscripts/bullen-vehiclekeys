@@ -39,6 +39,8 @@
 - Open config.lua and set the correct options for your server
 
 ### Items for ox_inventory
+<details>
+    <summary>
 ```['vehicle_key'] = {
     label = 'Vehicle Key',
     weight = 50,
@@ -85,4 +87,4 @@
     stack = true,
     close = true,
     description = 'Useful for vehicle work'
-},```
+},</summary>```
