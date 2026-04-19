@@ -87,4 +87,4 @@
     stack = true,
     close = true,
     description = 'Useful for vehicle work'
-},```
+},</details>```
