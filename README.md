@@ -7,3 +7,7 @@
 [qb-core](https://pages.github.com/](https://github.com/qbcore-framework/qb-core))<br>
 [oxmysql](https://github.com/overextended/oxmysql)<br>
 [ox_lib](https://github.com/overextended/ox_lib)
+
+## Supported/Configurable:
+[ox_inventory](https://github.com/overextended/ox_inventory) or [qb-inventory](https://github.com/qbcore-framework/qb-inventory)<br>
+[ox_target](https://github.com/overextended/ox_target) or [qb-target](https://github.com/qbcore-framework/qb-target)
