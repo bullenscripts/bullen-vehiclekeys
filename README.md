@@ -90,12 +90,18 @@
     stack = true,
     close = true,
     description = 'Useful for vehicle work'
-},</details> ```
+},
+```
+
+</details>
 
 ### qb-inventory
+
+```lua
 vehicle_key                 = { name = 'vehicle_key', label = 'Vehicle Key', weight = 50, type = 'item', image = 'vehicle_key.png', unique = true, useable = false, shouldClose = true, description = 'A key for a specific vehicle' },
 blank_key                   = { name = 'blank_key', label = 'Blank Key', weight = 50, type = 'item', image = 'blank_key.png', unique = false, useable = false, shouldClose = true, description = 'A blank vehicle key ready to be cut' },
 lockpick                    = { name = 'lockpick', label = 'Lockpick', weight = 100, type = 'item', image = 'lockpick.png', unique = false, useable = false, shouldClose = true, description = 'Useful for opening locked vehicles' },
 fakeplate                   = { name = 'fakeplate', label = 'Fake Plate', weight = 200, type = 'item', image = 'fakeplate.png', unique = false, useable = false, shouldClose = true, description = 'A fake vehicle plate' },
 platekit                    = { name = 'platekit', label = 'Plate Kit', weight = 300, type = 'item', image = 'platekit.png', unique = false, useable = false, shouldClose = true, description = 'Tools and parts for fitting a plate' },
 screwdriver                 = { name = 'screwdriver', label = 'Screwdriver', weight = 150, type = 'item', image = 'screwdriver.png', unique = false, useable = false, shouldClose = true, description = 'Useful for vehicle work' },
+```
