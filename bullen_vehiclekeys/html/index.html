@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>bullen_vehiclekeys audio</title>
+</head>
+<body>
+  <audio id="lockToggle" preload="auto" src="sounds/lock_toggle.ogg"></audio>
+  <script>
+    const lockToggle = document.getElementById('lockToggle');
+    window.addEventListener('message', (event) => {
+      const data = event.data || {};
+      if (data.action === 'playLockToggleSound') {
+        try {
+          lockToggle.pause();
+          lockToggle.currentTime = 0;
+          lockToggle.volume = typeof data.volume === 'number' ? data.volume : 1.0;
+          const playPromise = lockToggle.play();
+          if (playPromise && typeof playPromise.catch === 'function') {
+            playPromise.catch(() => {});
+          }
+        } catch (e) {}
+      }
+    });
+  </script>
+</body>
+</html>
