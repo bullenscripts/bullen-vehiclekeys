@@ -5,5 +5,5 @@
 
 # Dependencies:
 [qb-core](https://pages.github.com/](https://github.com/qbcore-framework/qb-core)).<br>
-[oxmysql](https://github.com/overextended/oxmysql)).<br>
-ox_lib
+[oxmysql](https://github.com/overextended/oxmysql).<br>
+[ox_lib](https://github.com/overextended/ox_lib)
