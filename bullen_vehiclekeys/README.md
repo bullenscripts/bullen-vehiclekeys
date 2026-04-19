@@ -1,9 +1,3 @@
-# bullen_vehiclekeys
-
-A production-focused QBCore vehicle key resource built for sellable-server standards.
-
-`bullen_vehiclekeys` separates **door lock state**, **persistent access**, **physical keys**, and **session theft access** so theft flow stays believable and administration stays clean. It is designed around server validation for theft outcomes, lightweight target visibility, metadata-based keys, a configurable locksmith, vehicle alarms, ambient NPC lock normalization, lockpicking, hotwiring.
-
 ## Overview
 
 This resource treats vehicle access as layered state:
