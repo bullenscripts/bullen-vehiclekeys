@@ -107,14 +107,14 @@ platekit                    = { name = 'platekit', label = 'Plate Kit', weight =
 screwdriver                 = { name = 'screwdriver', label = 'Screwdriver', weight = 150, type = 'item', image = 'screwdriver.png', unique = false, useable = false, shouldClose = true, description = 'Useful for vehicle work' },
 ```
 
-## Commands
+### Commands
 
 - `/vlock` — Toggle the nearest/current accessible vehicle lock state
 - `/lockpick` — Fallback lockpick command
 - `/givekeys [id]` — Grant shared vehicle key access
 - `/revokekeys [id]` — Revoke shared vehicle key access
 
-## Exports
+### Exports
 
 ```lua
 exports('HasAccess', function(source, plate) end)
@@ -126,7 +126,7 @@ exports('EnsurePhysicalKey', function(source, plate) end)
 exports('ReplacePhysicalKey', function(source, plate) end)
 ```
 
-## Notes
+### Notes
 
 - `HasAccess` checks any valid access path
 - `HasRealAccess` checks owned/shared/physical key access only
