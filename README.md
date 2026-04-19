@@ -40,7 +40,7 @@
 
 ### Items for ox_inventory
 <details>
-    <summary>
+    <summary>Expand</summary>
 ```['vehicle_key'] = {
     label = 'Vehicle Key',
     weight = 50,
@@ -87,4 +87,4 @@
     stack = true,
     close = true,
     description = 'Useful for vehicle work'
-},</summary>```
+},```
