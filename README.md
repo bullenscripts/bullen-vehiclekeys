@@ -32,3 +32,57 @@
 - [lockpick](https://github.com/havenstadrp/qb-lockpick)<br>
 - [ox_lib skillcheck](https://github.com/overextended/ox_lib)
 
+### Installation
+- Delete qb-vehiclekeys
+- Place bullen_vehiclekeys in your server resources folder.
+- Import the included SQL file into your database.
+- Open config.lua and set the correct options for your server
+
+### Items for ox_inventory
+```['vehicle_key'] = {
+    label = 'Vehicle Key',
+    weight = 50,
+    stack = false,
+    close = true,
+    description = 'A key for a specific vehicle'
+},
+
+['blank_key'] = {
+    label = 'Blank Key',
+    weight = 50,
+    stack = true,
+    close = true,
+    description = 'A blank vehicle key ready to be cut'
+},
+
+['lockpick'] = {
+    label = 'Lockpick',
+    weight = 100,
+    stack = true,
+    close = true,
+    description = 'Useful for opening locked vehicles'
+},
+
+['fakeplate'] = {
+    label = 'Fake Plate',
+    weight = 200,
+    stack = true,
+    close = true,
+    description = 'A fake vehicle plate'
+},
+
+['platekit'] = {
+    label = 'Plate Kit',
+    weight = 300,
+    stack = true,
+    close = true,
+    description = 'Tools and parts for fitting a plate'
+},
+
+['screwdriver'] = {
+    label = 'Screwdriver',
+    weight = 150,
+    stack = true,
+    close = true,
+    description = 'Useful for vehicle work'
+},```
