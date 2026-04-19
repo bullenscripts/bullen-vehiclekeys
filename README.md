@@ -38,7 +38,7 @@
 - Import the included SQL file into your database.
 - Open config.lua and set the correct options for your server
 
-### Items for ox_inventory
+### Items for ox_inventory & qb-inventory
 
 <details>
 <summary>Expand</summary>
@@ -92,7 +92,7 @@
     description = 'Useful for vehicle work'
 },</details> ```
 
-### Items for qb-inventory
+### qb-inventory
 vehicle_key                 = { name = 'vehicle_key', label = 'Vehicle Key', weight = 50, type = 'item', image = 'vehicle_key.png', unique = true, useable = false, shouldClose = true, description = 'A key for a specific vehicle' },
 blank_key                   = { name = 'blank_key', label = 'Blank Key', weight = 50, type = 'item', image = 'blank_key.png', unique = false, useable = false, shouldClose = true, description = 'A blank vehicle key ready to be cut' },
 lockpick                    = { name = 'lockpick', label = 'Lockpick', weight = 100, type = 'item', image = 'lockpick.png', unique = false, useable = false, shouldClose = true, description = 'Useful for opening locked vehicles' },
